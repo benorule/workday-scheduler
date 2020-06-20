@@ -19,3 +19,10 @@ Then I repeated the process for 8 other columns giving them each unique ids for 
 
 At the top of the page I had nine lines of code that loaded the saved value for each column so I made it more concise by using a for loop.
 
+## Color Change by Hour
+In the javascript file I set up an interval that runs a function every minute. This function will check the hour and change the css styling accordingly.
+
+In the function I logged the current time from Moment in the console and then created an if statement. Each if condition is a time period of one hour between two on the hour times. In the if statements I add a class to each column depending on whether it if future, current or past. These classes change the background colors of the columns so one can easily see which hours have passed which hour interval the current time is within and which hours are yet to come.
+
+
+
