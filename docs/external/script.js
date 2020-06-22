@@ -1,3 +1,6 @@
+// waits for page to load
+$(document).ready(function () {
+
 // Set displayed values as the saved values upon refresh
 for (i = 1; i < 10; i++) {
     document.getElementById("txt_" + i).value = getSavedValue("txt_" + i);
@@ -138,4 +141,6 @@ function timerFunction() {
         $("#4PM").addClass("future");
         $("#5PM").addClass("future");
     }
+}
+
 }
