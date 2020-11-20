@@ -1,5 +1,27 @@
-# workday-scheduler
-Coursework Assignment No. 5 for Coding Bootcamp
+# Workday Scheduler
+## Table of Contents: 
+ * [Description](#Description) 
+* [Installation Instructions](#Installation-Instructions) 
+* [Usage Information](#Usage-Information) 
+* [Contribution Guidlines](#Contribution-Guidelines) 
+* [Test Instructions](#Test-Instructions) 
+* [Questions](#Questions) 
+## Description 
+Workday schedule app that uses hourly time blocking to help professionals organise their time more effectively.
+## Installation Instructions 
+This web application is hosted by GitHub pages. Alternatively, you can download the app from GitHub through the command git clone or by downloading the zip file.
+## Usage Information 
+Enter tasks into an hourly time block and click save.
+## Contribution Guidelines 
+To contribute to this project please submit a pull request on GitHub with a clear description of your contribution.
+## Test Instructions 
+To test this application enter text into one of the fields, press save and reload the webpage to test whether the information has saved correctly.
+## Questions 
+ * GitHub: https://github.com/benorule
+* Email: benorule@outlook.com
+* License: MIT
+
+# Some information about the development process:
 
 ## Grid Layout
 To begin with I set up a bootstrap grid system using rows and columns to set up the basic look of the webpage. I created a large column in the center where my input field can go and two smaller columns on either side, the right side being for the time and the left side being for the save button.
